@@ -1,0 +1,89 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1367px) {
+
+      .logo {
+            margin: 30px 280px 21px 60px;
+      }
+
+      .wolf {
+            transform: scale(0.7);
+            top: 50px;
+            right: 0;
+      }
+
+      .line__behind {
+            width: 912px;
+      }
+
+      .line__front {
+            width: 450px;
+            bottom: -67px;
+            right: -100px;
+      }
+
+      .text__wrapper {
+            margin-top: -150px;
+      }
+
+      .hero p {
+            font-size: 4rem;
+      }
+
+      .hero h1 {
+            font-size: 6rem;
+      }
+
+      .hero__mod {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+
+            h2 {
+                  padding: 50px 0 15px;
+                  font-size: 3rem;
+                  letter-spacing: 1px;
+            }
+
+            p {
+                  padding: 10px 0 65px;
+                  font-size: 2.5rem;
+                  letter-spacing: normal;
+            }
+      }
+
+      .cutout {
+            animation: hill_move 4s ease-in forwards;
+      }
+
+
+
+
+      @keyframes hill_move {
+            0% {
+                  transform: translateX(-20px) translateY(10px);
+            }
+
+            50% {
+                  transform: translateX(0px);
+            }
+
+            100% {
+                  transform: translateX(20px);
+            }
+      }
+
+
+      @keyframes scaleup {
+            from {
+                  transform: scale(0.7);
+                  opacity: 0;
+            }
+
+
+            to {
+                  transform: scale(0.9);
+                  opacity: 1;
+            }
+      }
+}
